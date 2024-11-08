@@ -4,8 +4,6 @@ import "fmt"
 
 type color string
 
-// Red
-// return fmt.Sprintf("\033[31m%s\033[0m", "Failure")
 const (
 	green  color = "\033[32m"
 	red          = "\033[31m"
